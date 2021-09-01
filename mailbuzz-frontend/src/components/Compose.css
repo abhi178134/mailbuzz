@@ -1,0 +1,89 @@
+.compose {
+  background-color: white;
+  width: 50%;
+  height: 650px;
+  border: 2px solid #81c784;
+  padding: 50px;
+  margin: 20px;
+}
+
+.compose .compose_header {
+  font-size: large;
+  font-weight: lighter;
+}
+
+.compose > form {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.compose > form > input {
+  font-size: 15px;
+  height: 20px;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid whitesmoke;
+  outline: none;
+}
+
+.compose .schedule {
+  font-size: 16px;
+  height: 20px;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid whitesmoke;
+  outline: none;
+}
+
+.compose__message {
+  margin-top: 10px;
+  font-size: 16px;
+  height: 100px;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid whitesmoke;
+  outline: none;
+}
+
+.schedule .method {
+  font-size: 16px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  height: 40px;
+  border-radius: 5px;
+  margin-left: 6px;
+  border: none;
+}
+
+.compose__options .compose__send {
+  margin-top: 10px;
+  background: #81c784;
+  color: black;
+  border-radius: 5px;
+}
+
+.compose__options .compose__send:hover {
+  background: whitesmoke;
+  color: teal;
+  border-radius: 5px;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.toolbar .tool-list {
+  display: flex;
+  flex-flow: row nowrap;
+  list-style: none;
+  padding: 0;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.tool .tool--btn {
+  display: block;
+  border: none;
+  padding: 0.5rem;
+  font-size: 20px;
+}
